@@ -1,6 +1,12 @@
 // here in random function 0 = rock , 1 = paper , 2 = scissor
 let btns = document.querySelectorAll(".clicker");
 let result = document.querySelector(".move");
+let c = 0;
+let y = 0;
+let com_number = document.querySelector(".C");
+let You = document.querySelector(".Y");
+com_number.innerHTML = c;
+You.innerHTML = y;
 
 btns.forEach((btn, index) => {
   btn.addEventListener("mouseover", () => {
@@ -25,10 +31,14 @@ btns.forEach((btn, index) => {
       (index === 2 && computer_move === 0)
     ) {
       result.innerHTML = "Computer won!!, You Lose";
+      console.log("Computer won");
+      com_number.innerHTML = parseInt(com_number.innerHTML) + 1;
       result.style.background = "red";
     } else {
       result.innerHTML = "You Won!!";
+      console.log("You won");
       result.style.background = "darkseagreen";
+      You.innerHTML = parseInt(You.innerHTML) + 1;
     }
   });
 });
