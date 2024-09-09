@@ -13,8 +13,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color:orange;
   color: whitesmoke;
+  margin: 1rem;
   padding: 0.5rem;
   border-radius: 5rem;
 }
