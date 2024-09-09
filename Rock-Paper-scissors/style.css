@@ -23,6 +23,15 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
+#text {
+  color: orange;
+  font-size: 1rem;
+}
+
+#You, #com_number {
+    color: grey;
+  }
+
 .Big_buttons {
   display: flex;
   justify-content: center;
