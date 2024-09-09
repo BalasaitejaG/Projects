@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:orange;
+  background-color: orange;
   color: whitesmoke;
   margin: 1rem;
   padding: 0.5rem;
@@ -23,33 +23,33 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.whole {
+.Big_buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50%;
   gap: 7rem;
 }
-.whole1 {
+.most_wins {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10rem;
 }
-.whole2 {
+.result_showcase {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20%;
   padding: 5rem;
 }
-.clicker {
+.select {
   padding: 3.5rem;
   background-color: antiquewhite;
   border-radius: 5vw;
   border: none;
 }
-.result {
+.num {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,12 +57,17 @@ h2 {
   gap: 1rem;
 }
 
-.move {
+.result {
   border: none;
   padding: 1rem;
   margin: 2rem;
-  background-color: darkseagreen;
+  background-color: orange;
   color: whitesmoke;
   border-radius: 1rem;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+}
+
+.move:hover {
+  background-color: seagreen;
 }

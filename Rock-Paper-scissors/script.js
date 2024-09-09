@@ -1,13 +1,12 @@
 // here in random function 0 = rock , 1 = paper , 2 = scissor
-let btns = document.querySelectorAll(".clicker");
-let result = document.querySelector(".move");
+let btns = document.querySelectorAll(".select");
+let result = document.querySelector(".result");
 let c = 0;
 let y = 0;
-let com_number = document.querySelector(".C");
-let You = document.querySelector(".Y");
+let com_number = document.querySelector("#com_number");
+let You = document.querySelector("#You");
 com_number.innerHTML = c;
 You.innerHTML = y;
-
 btns.forEach((btn, index) => {
   btn.addEventListener("mouseover", () => {
     btn.style.border = "5px solid orange";
