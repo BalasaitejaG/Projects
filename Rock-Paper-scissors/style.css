@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "jetbrains mono";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.whole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  gap: 7rem;
+}
+
+.clicker {
+  padding: 3.5rem;
+  background-color: antiquewhite;
+  border-radius: 5vw;
+  border: none;
+}
