@@ -26,13 +26,42 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 50%;
   gap: 7rem;
 }
-
+.whole1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.whole2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding: 5rem;
+}
 .clicker {
   padding: 3.5rem;
   background-color: antiquewhite;
   border-radius: 5vw;
   border: none;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.move {
+  border: none;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: darkseagreen;
+  color: whitesmoke;
+  border-radius: 1rem;
+  cursor: pointer;
 }
